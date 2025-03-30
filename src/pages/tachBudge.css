@@ -1,0 +1,17 @@
+.teachtasknamestyle{
+    background-color: rgb(18, 2, 69);
+    border: 0.5px solid rgb(140, 137, 143);
+    width:fit-content;
+    padding: 3px 8px;
+    margin: 5px;
+    border-radius: 1rem;
+    display: inline-block;
+    transition: 1s;
+    text-align: center;
+}
+
+.teachtasknamestyle:hover{
+    box-shadow: 1px 1px 10px rgba(234, 166, 240, 0.785);
+    text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.785);
+    padding: 3px 12px;
+}

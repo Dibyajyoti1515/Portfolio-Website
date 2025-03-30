@@ -1,0 +1,116 @@
+.subHomepage{
+    color: azure;
+    cursor: pointer;
+}
+
+.subHomepage h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.subhomepage-line2{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #7a41ff, #f72585);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    margin: 0%;
+}
+
+.subhomepage-button{
+    background-color: #f72584a1;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+.subhomepage-icons {
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    position:absolute;
+    right: 50%;
+    top: 34%;
+}
+
+.subhomepage-icons a {
+    border-radius: 40%;
+    width: 10px;
+    padding: 0.5rem;
+    margin: 10px;
+    transition: 1s;
+    box-shadow: 
+        3px 3px 9px #7a41ff,  /* Red shadow */
+        -3px -3px 9px #f72585;
+}
+
+.subhomepage-icons a:hover{
+    margin: 15px;
+    box-shadow: 
+        3px 3px 15px #7a41ffbb,  /* Red shadow */
+        -3px -3px 15px #f72584b3;
+    transform: translateY(-5px);
+}
+
+.subhomepage-line1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 0%;
+}
+
+
+
+
+@media (max-width: 450px) {
+    .subhomepage-icons {
+        top: 37%;
+        width: 100px;
+    }
+    .subhomepage-icons a{
+        border-radius: 40%;
+        width: 15px;
+        padding: 0.6rem;
+        margin: 15px;
+        transition: 1s;
+        box-shadow: 
+           3px 3px 12px #7a41ff,  /* Red shadow */
+           -3px -3px 12px #f72585;
+    }
+    .subhomepage-line1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .subhomepage-line2{
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 420px) {
+    .subhomepage-icons {
+        top: 37%;
+        width: 100px;
+    }
+    .subhomepage-icons a{
+        border-radius: 40%;
+        width: 15px;
+        padding: 0.6rem;
+        margin: 15px;
+        transition: 1s;
+        box-shadow: 
+           3px 3px 12px #7a41ff,  /* Red shadow */
+           -3px -3px 12px #f72585;
+    }
+    .subhomepage-line1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .subhomepage-line2{
+        font-weight: 700;
+    }
+}

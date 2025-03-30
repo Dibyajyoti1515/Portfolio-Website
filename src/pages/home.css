@@ -1,0 +1,105 @@
+.readytoinovate_icon{
+    color: brown;
+}
+.backcolour{
+    background-color: #a200ff;
+    color: #a200ff;
+    background: transparent;
+}
+
+.readytoinovate{
+    width: 10rem;
+    border: 0.01px solid rgb(255, 255, 255);
+    border-radius: 10rem;
+    padding: 0.3rem;
+    transition: 1s;
+    text-shadow: -10px -10px 12px #a773e374,
+                 -10px 10px 15px #a773e374, 10px -10px 12px #a773e374,10px 10px 12px #a773e374;
+}
+
+.readytoinovate:hover{
+    text-shadow: -10px -10px 12px #bd97e8,
+                 -10px 10px 15px #bd97e8, 10px -10px 12px #bd97e8,10px 10px 12px #bd97e8;
+    box-shadow: -2px -2px 12px #bd97e8;
+}
+.homepagesetup{
+    top: 10%;
+    left:6% ;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.profasssion_home{
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+    width: 500px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.profasonTarget h1{
+    margin: 5px 0px 5px 0px;
+    text-shadow: 50px 5px 40px #a200ffac;
+}
+
+.devloperstyle{
+    font-weight: 700;
+    background-image: linear-gradient(to right, #4a06e9, #a200ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.clgBranchset{
+    position: relative;
+    left: -2px;
+    font-weight: 500;
+    font-size:20px;
+    color: rgb(221, 208, 238);
+    -webkit-text-stroke: #a200ff;
+    text-transform:uppercase;
+}
+
+.clgBranchset_nameplate{
+    margin: 10px 0px 10px 0px;
+}
+
+.clgBranchsetBar-side{
+    display: inline-block;
+    background-color: #4a06e9;
+    height: 27px;
+    width: 3px;
+    bottom: -4px;
+    position: relative;
+}
+
+.discrptionofWork{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(192, 188, 188);
+    margin:12px 0px 10px 0px;
+}
+
+.teachstack{
+    cursor:pointer;
+}
+
+.sidepicscomputer img{
+    height: 400px;
+    width: 400px;
+    transition: 3s;
+    rotate: 1deg;
+}
+
+.sidepicscomputer img:hover{
+    background: transparent;
+    rotate: 2deg;
+    height: 450px;
+    width: 450px;
+    x: 2px;
+    y:2px;
+}
+
+.sidepicscomputer{
+    margin-left: 9rem;
+}

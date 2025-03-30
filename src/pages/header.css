@@ -1,0 +1,52 @@
+.headTop{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    top:-3%;
+    left: -2%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    position: fixed;
+    font-size: large;
+    font-weight: 600;
+    background-color: #0c022479;
+    z-index: 2;
+    text-align: center;
+    height: 1.5rem;
+}
+
+.navbarright .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30vw;
+    color: azure;
+}
+
+.navBarElement{
+    color: azure;
+}
+
+.navbarright hr{
+    background-image: linear-gradient(to right, #4a06e9, #a200ff);
+    width: 0;
+    height: 2px;
+    border: none;
+    position: relative;
+    transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+.navbarright div:hover hr{
+    width: 100%;
+    background-color: blue; /* Color on hover */
+}
+
+.candateName{
+    font-size: 20px;
+    background-image: linear-gradient(to right, #f72584, #672af7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
