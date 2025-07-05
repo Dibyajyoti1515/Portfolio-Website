@@ -1,0 +1,8 @@
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 65vh;
+    padding: 0rem 3rem ;
+}
+

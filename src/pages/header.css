@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .headTop{
     display: flex;
     width: 100vw;
@@ -50,3 +53,110 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.contantPage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.contantPage .homepage{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    left: 16%;
+    margin-top: 1rem;
+}
+
+.sidebar_Setup{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgba(8, 0, 53, 0.518);
+    position: relative;
+    margin-left: 0;
+    transition: margin-left  0.3s ease;
+}
+
+.crossBtn{
+    margin: 1rem;
+    font-size: 2rem;
+    background-color: #a200ff;
+    border: 1px solid rgb(6, 152, 184);
+    padding: 0rem 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-image: linear-gradient(to top left, #0b002fa7, #1b013689, #180026ba);
+    box-shadow: 0px 0px 10px rgba(204, 24, 235, 0.354);
+    transition: all 1s ease;
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    font-weight: 800;
+    color: #f72584;
+}
+
+.hr1{
+    width: 80%;
+    height: 1px;
+    align-self: center;
+    color: #672af7;
+    background-color: #a200ff;
+    border: none;
+}
+
+.sidebar_Setup_Open{
+    transform: translateX(700rem);
+    right: 700rem;
+    display: none;
+}
+
+.setupCloseOpen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navRight_11{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 900;
+    flex: 1;
+    height: 60vh;
+    margin: 1rem;
+}
+
+
+.navBarElement_1{
+    cursor: pointer;
+    margin: 1rem;
+}
+
+@media (min-width: 701px) {
+    .buttonClass{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .headTop{
+        display: none;
+    }
+
+    .candateName{
+        display: inline;
+        margin-right: 6rem;
+        font-size: 3.2rem;
+    }
+
+    .homepage{
+        margin-top: 0px;
+    }
+}
+

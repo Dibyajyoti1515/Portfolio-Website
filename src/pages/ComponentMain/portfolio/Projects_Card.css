@@ -1,0 +1,110 @@
+.Projects_Card{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    border: 0.5px solid rgba(80, 173, 235, 0.432);
+    border-radius: 2rem;
+    height: 29rem;
+    margin: 1rem;
+    background-image: linear-gradient(to top, #0e0137da, #29015189, #e3caf223);
+    box-shadow: 0px 0px 10px rgba(204, 24, 235, 0.354);
+    transition: all 1s ease;
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+}
+
+.Projects_Card:hover{
+    box-shadow: 0px 0px 50px 8px rgba(132, 8, 220, 0.445);
+}
+
+.imgdiv{
+    height: 14rem;
+    width: 18rem;
+    padding: 1rem;
+}
+
+.imgdiv img{
+    height: 13rem;
+    width: 17rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.pro_details_div .buttons_pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pro_details_div .buttons_pro button{
+    background-color: transparent;
+    border: 1px solid #b052f3a5;
+    transition: all 0.7s ease-in-out;
+}
+
+.pro_details_div .buttons_pro button::after{
+    border: none;
+}
+
+.pro_details_div .buttons_pro button::before{
+    border: none;
+}
+
+
+button:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+.pro_details_div .buttons_pro .live_Demo_cls{
+    border: none;
+    margin-bottom: 0.5rem;
+    background-color: transparent;
+    color: #4254fa;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.pro_details_div .buttons_pro .details_class{
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+    transition: all 0.4s ease;
+    margin-bottom: 0.3rem;
+}
+
+.pro_details_div .buttons_pro .details_class:hover{
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.05);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.pro_about{
+    margin-bottom: 0.7rem;
+}
+
+.pro_name, .pro_des, .pro_time{
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    margin: 0.5rem 1rem;
+}
+
+.pro_des{
+    font-size:medium;
+    font-weight: 200;
+}
+
+.pro_time{
+    font-size:medium;
+    font-weight: 700;
+}

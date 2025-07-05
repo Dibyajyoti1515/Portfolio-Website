@@ -1,0 +1,196 @@
+.readytoinovate_icon{
+    color: brown;
+}
+.backcolour{
+    background-color: #a200ff;
+    color: #a200ff;
+    background: transparent;
+}
+
+.readytoinovate{
+    width: 10rem;
+    border: 0.5px solid rgb(27, 132, 185);
+    border-radius: 15rem;
+    padding: 0.5rem 1rem;
+    transition: 1s;
+    background-image: linear-gradient(to top, #0e0137da, #1d02396f, #2c02452f);
+    box-shadow: 0px 0px 10px rgba(204, 24, 235, 0.354);
+    transition: all 1s ease;
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+}
+
+.readytoinovate:hover{
+    box-shadow: 0px 0px 50px 8px rgba(132, 8, 220, 0.445);
+}
+.homepagesetup{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80vw;
+    align-content: center;
+    height: 100vh;
+    align-items: center;
+    padding-left: 4rem;
+    margin-top: 2rem;
+}
+
+.profasssion_home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 40%;
+    text-align: left;
+    flex-wrap: wrap;
+    /* padding-left: 3rem; */
+}
+
+.profasonTarget{
+    margin: 0.7rem 0rem;
+}
+
+.profasonTarget h1{
+    margin: 5px 0px 5px 0px;
+    text-shadow: 50px 5px 40px #a200ffac;
+}
+
+.devloperstyle{
+    font-weight: 700;
+    background-image: linear-gradient(to right, #4a06e9, #a200ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description1{
+    color: #a200ff;
+    background: transparent;
+    size: 1rem;
+}
+
+.clgBranchset{
+    position: relative;
+    left: -2px;
+    font-weight: 500;
+    font-size:20px;
+    color: rgb(221, 208, 238);
+    -webkit-text-stroke: #a200ff;
+    text-transform:uppercase;
+}
+
+.clgBranchset_nameplate{
+    margin: 10px 0px 10px 0px;
+}
+
+.clgBranchsetBar-side{
+    display: inline-block;
+    background-color: #4a06e9;
+    height: 27px;
+    width: 3px;
+    bottom: -4px;
+    position: relative;
+}
+
+.discrptionofWork{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(192, 188, 188);
+    margin:12px 0px 10px 0px;
+}
+
+.teachstack{
+    cursor:pointer;
+}
+
+.sidepicscomputer img{
+    padding-bottom: 7rem;
+    height: 400px;
+    /* width: 400px; */
+    transition: 3s;
+    /* rotate: 1deg; */
+}
+
+.sidepicscomputer img:hover{
+    background: transparent;
+    /* rotate: 2deg; */
+    height: 450px;
+    /* width: 450px; */
+    x: 2px;
+    y:2px;
+}
+
+.sidepicscomputer{
+    /* margin-left: 9rem; */
+    width: 40%;
+}
+
+.btnclass_about{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    border-radius: 4rem;
+    width: 20rem;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 3rem;
+    box-shadow: 0 8px 32px 3 rgba(32, 38, 135, 0.37);
+}
+
+.btnclass_about .section{
+    cursor: pointer;
+    display: flex;
+    flex-shrink: 0;
+    white-space: nowrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    height: 4rem;
+    padding: 0rem 1rem;
+    
+}
+
+.btnclass_about .splitter{
+    width: 1px;
+    background-color:#a200ff ;
+    position: relative;
+    z-index: 2;
+    height: 4rem;
+}
+
+
+@media (max-width: 700px) {
+    .homepagesetup{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding-left: 0rem;
+        margin-left: 0%;
+        width: 100vw;
+        margin-top: 0%;
+        justify-content: flex-start;
+    }
+
+    .profasssion_home{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: auto;
+        height: auto;
+        left: -10%;
+        position: relative;
+    }
+
+    .sidepicscomputer{
+        position: relative;
+        left: -20%;
+        margin-top: 2rem;
+    }
+}

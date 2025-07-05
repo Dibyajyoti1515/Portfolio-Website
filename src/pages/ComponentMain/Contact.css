@@ -1,0 +1,28 @@
+.Contact_page{
+    display: flex;
+    height: 80vh;
+    width: inherit;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Contact_page .topPart{
+    text-align: center;
+    align-items: center;
+}
+
+.Contact_info{
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50vh;
+    width: 80vw;
+}
+
+.Contact_info .Contact_info_mail{
+    background-image: linear-gradient(to top, #0e0137da, #29015189, #e3caf223);
+    margin-right: 3rem;
+    width: 45%;
+}

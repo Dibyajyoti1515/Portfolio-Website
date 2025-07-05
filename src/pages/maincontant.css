@@ -1,0 +1,11 @@
+.content{
+    margin: 0%;
+    padding: 2rem;
+}
+
+@media (max-width: 700px) {
+    .content{
+        margin: 0%;
+        padding: 0rem;
+    }
+}

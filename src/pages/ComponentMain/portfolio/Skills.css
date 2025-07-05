@@ -1,0 +1,33 @@
+.skills{
+    width: 64rem;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.skills .img_container{
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-image: linear-gradient(to top, #0e0137da, #25014856, #c691e523);
+    box-shadow: 0 8px 32px 3px rgba(203, 24, 235, 0.162);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    transition: all 0.6s ease;
+}
+
+.skills .img_container:hover{
+    box-shadow: 0px 8px 100px 8px rgba(203, 24, 235, 0.445);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.skills .img_container img{
+    width: 10rem;
+    height: 10rem;
+}

@@ -1,0 +1,210 @@
+.ProjectsMainPage{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0.5rem;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.backButtonSys{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.backButton{
+    font-size: medium;
+    font-weight: 100;
+    margin-right: 1rem;
+    background-image: linear-gradient(to top left, #ad00fd3c, #ae00ff69);
+    border-radius: 0.5rem;
+    border: 1.5px solid #939393ab;
+    padding: 0.4rem 1rem;
+    box-shadow: 0px 0px 10px rgba(204, 24, 235, 0.354);
+    transition: all 0.8s ease;
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    color: #ffffffd8;
+}
+
+.backButton:hover{
+    box-shadow: 0px 0px 50px 8px rgba(132, 8, 220, 0.445);
+    border-color: #939393ab;
+}
+
+.backButton_project{
+    color: #939393ab;
+}
+
+.projectName h1{
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: 700;
+    background-image: linear-gradient(to top right, #11cfcfa9, #a400fc56, #df40fb22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 40px #a200ffac;
+}
+
+.projectAbout{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 1rem ;
+}
+
+.projectImg{
+    margin: 1rem 2rem;
+    height: 80vh;
+    width: 40vw;
+}
+
+.projectImg img{
+    height: 80vh;
+    width: 40vw;
+}
+
+.projectDes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3rem 2rem;
+    justify-content: center;
+}
+
+.descriptionProject{
+    align-items: center;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.skillsRequired{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0rem;
+    justify-content: space-evenly;
+}
+
+.techStackUsed{
+    margin: 1rem;
+    border: 1px solid #939393ab;
+    padding: 1rem 0.5rem;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    transition: all 1s ease;
+}
+
+.case1:hover{
+    border: 1px solid #b407c0ab;
+}
+
+.case2:hover{
+    border: 1px solid #07c0aaab;
+}
+
+.codeImgDiv{
+    height: inherit;
+    width: 3rem;
+    background-color: red;
+    flex: 1;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+
+.totalTech{
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+.linksSetup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.linksSetup_1{
+    margin: 1rem;
+}
+
+.linksSetup_1 button{
+    width: 13rem;
+    font-size: large;
+    font-weight: 700;
+}
+
+.additionalThings{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(169, 218, 5, 0.737);
+    justify-content: space-evenly;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    align-self: center;
+    margin-top: 2rem;
+    background-image: linear-gradient(to top left, #5a0195a6,#2a0064c8, #10005ea1);
+    box-shadow: 0px 0px 20px rgba(203, 24, 235, 0.445);
+    transition: all 0.8s ease;
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    color: #ffffff;
+    width: 60rem;
+    height: 60vh;
+}
+
+.featuresDes{
+    border-radius: 1rem;
+    text-align: left;
+    width: 30rem;
+    height: 10rem;
+    font-size: 1rem;
+    font-weight: 200;
+    font-style: oblique;
+    align-self: center;
+    margin-top: 1rem;
+    flex: 1;
+    margin: 2rem 5rem;
+    align-self: self-start;
+}
+
+.featuresDes ul{
+    padding: 0.7rem 2rem;
+    list-style: none;
+}
+
+.technology{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    align-self: center;
+    margin-top: 2rem;
+    width: 20rem;
+    margin: 2rem 3rem;
+    align-self: self-start;
+}
+
+.technology div div{
+    display: inline-flex;
+    margin: 1rem;
+    border: 2px solid rgba(88, 88, 88, 0.737);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.nameAll{
+    margin-top: 0.5rem;
+    font-size: large;
+    font-weight: 800;
+    font-family: cursive;
+}

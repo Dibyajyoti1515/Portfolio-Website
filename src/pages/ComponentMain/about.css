@@ -1,0 +1,120 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 100vh;
+    scroll-margin-top: 10rem;
+    position: relative;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.coat_me{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.coat_me h2{
+    font-size: 3rem;
+    margin: 0%;
+    padding: 0%;
+    font-weight: 800;
+}
+.coat_me h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 1.4rem;
+}
+
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    height: 100vh;
+    width: inherit;
+    justify-content: space-evenly;
+    scroll-margin-top: 10rem;
+    position: relative;
+    margin-top: 0%;
+}
+
+.aboutLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+
+.aboutRight{
+    width: 50%;
+    padding-left: 4rem;
+}
+
+.ganeshpic{
+    height: 60vh;
+    width: 30vw;
+}
+
+.nameplate_design {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(206, 201, 206);
+    margin-top: 1rem;
+    text-shadow: -8px 8px 8px  rgba(151, 0, 165, 0.384);
+}
+
+.description{
+    text-align: center;
+}
+.description2{
+    color: darkmagenta;
+}
+
+.about_Me_2{
+    font-size: medium;
+    letter-spacing: 1px;
+}
+
+.cv_download button{
+    width: 20rem;
+    margin: 0.5rem;
+}
+
+.cv_download .cv_download_btn{
+    margin-top: 0.5rem;
+    background-image: linear-gradient(to right, #4a06e9, #a200ff);
+}
+
+.cv_download .projects-View-btn{
+    background-color: transparent;
+    border: 1px solid #a200ff;
+}
+
+.cv_download .projects-View-btn span{
+    color: #cc00ff;
+}
+
+.cv_download .projects-View-btn:hover{
+    border: 1px solid #cc00ff;
+}
+
+@media (max-width: 700px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        height: 160vh;
+    }
+
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+    }
+}

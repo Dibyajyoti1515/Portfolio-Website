@@ -1,9 +1,11 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import Header from './header.jsx';
-import Home from './home.jsx';
-export default function maincontant(){
+import Manpage from './header.jsx';
+import ProjectsMainPage from './ProjectsMainPage/ProjectsMainPage.jsx'
+import './maincontant.css'
+import Footer from './otherComponents/footer.jsx';
+export default function Maincontant(){
+
   return (
     <motion.div
       className="bbbhf-container"
@@ -13,17 +15,14 @@ export default function maincontant(){
     >
 
     <Router>
-      <Header />
       <div className="content">
         <Routes>
-          <Route path="/" element={<Home />} />
-          {/* <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/" element={<Manpage />} />
+          <Route path="/Project" element={<ProjectsMainPage />} />
         </Routes>
       </div>
+      {/* <Footer></Footer> */}
     </Router>
     </motion.div>
   );
 };
-
